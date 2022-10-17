@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "myIIT"
 
     # Настройки БД
-    POSTGRES_SERVER: str = "localhost:55000"
+    POSTGRES_SERVER: str = "localhost:55001"
     POSTGRES_USER: str = "postgres"
     POSTGRES_PASSWORD: str = "postgrespw"
     POSTGRES_DB: str = "myIIT"
